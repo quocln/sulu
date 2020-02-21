@@ -159,7 +159,7 @@ class Navigation extends React.Component<Props> {
                 <div className={navigationStyles.header}>
                     <div className={navigationStyles.headerContent}>
                         <Icon className={navigationStyles.headerIcon} name="su-sulu" />
-                        <span className={navigationStyles.headerTitle}>{title}</span>
+                        <span className={navigationStyles.headerTitle}>KNQMedia</span>
                     </div>
                 </div>
                 <div className={navigationStyles.user}>
@@ -186,12 +186,6 @@ class Navigation extends React.Component<Props> {
                             <Icon className={navigationStyles.pinIcon} name="fa-thumb-tack" />
                         </button>
                     }
-                    <div className={navigationStyles.versions}>
-                        {this.renderAppVersion()}
-                        <div>
-                            Sulu (<a href={suluVersionLink} rel="noopener noreferrer" target="_blank">{suluVersion}</a>)
-                        </div>
-                    </div>
                 </div>
             </div>
         );
